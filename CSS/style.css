@@ -1,0 +1,29 @@
+.btn-tweetar-lg{
+    width: 100%;
+}
+
+.lista-esquerda{
+    font-size: 130%;
+}
+
+.caixa-tweet{
+    width: 100%;
+    padding-bottom: 25px;
+    border: none;
+}
+
+.caixa-tweet :hover{
+    border: none;
+}
+
+.btn-icons-tweet-box{
+    margin-top: 2% ;
+}
+
+.icons-tweet-box{
+    margin-left: 10%;
+}
+
+.btn-tweetar{
+    float: right;
+}

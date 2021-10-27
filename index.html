@@ -3,7 +3,7 @@
 
 <head>
     <title>Página Inicial/Twitter Aula</title>
-    <link rel="stylesheet" type="style" href="style.css" />
+    <link rel="stylesheet" href="CSS/style.css">
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,10 +15,13 @@
 
 <body>
     <div class="container">
+        <!--!Sessao da esquerda-->
         <div class="row">
             <div class="col-3">
-                <ul class="list-group ">
-                    <li class="list-group-item border-0"></i><h2><i class="bi bi-egg icon-twitter"></i></h2></li>
+                <ul class="list-group lista-esquerda">
+                    <li class="list-group-item border-0"></i>
+                        <h2><i class="bi bi-egg icon-twitter"></i></h2>
+                    </li>
                     <li class="list-group-item border-0"><i class="bi bi-house"></i> Pagina Inicial</li>
                     <li class="list-group-item border-0"><i class="bi bi-hash"></i> Explorar</li>
                     <li class="list-group-item border-0"><i class="bi bi-bell"></i> Notificações</li>
@@ -27,34 +30,43 @@
                     <li class="list-group-item border-0"><i class="bi bi-card-text"></i> Listas</li>
                     <li class="list-group-item border-0"><i class="bi bi-person"></i> Perfil</li>
                     <li class="list-group-item border-0"><i class="bi bi-plus-circle"></i> Mais</li>
-                    <li class="list-group-item border-0"><button type="button" class="btn btn-lg btn-primary rounded-pill">Tweetar</button></li>
+                    <li class="list-group-item border-0"><button type="button"
+                            class="btn btn-lg btn-primary rounded-pill btn-tweetar-lg">Tweetar</button></li>
                 </ul>
             </div>
+            <!--!Sessao do centro-->
             <div class="col-6">
                 <ul class="list-group pagina-principal">
-                    <li class="list-group-item"><h4 class="pagina-inicial-titulo"><b>Pagina Inicial</b></h3></li>
+                    <li class="list-group-item">
+                        <h4 class="pagina-inicial-titulo"><b>Pagina Inicial</b></h3>
+                    </li>
                     <li class="list-group-item border-1">
                         <div class="caixa-tweet">
                             <div class="container">
                                 <div class="row">
-                                  <div class="col-1">
-                                      <h2><i class="bi bi-person-circle icone-user"></i></h2>
-                                  </div>
-                                  <div class="col">
-                                    <input class="caixa-tweet" type="text">
-                                  </div>
-                                </div>
-                                <div class="row">
-                                  <div class="col">
-                                    <i class="bi bi-image"></i>
-                                    <i class="bi bi-bar-chart-line-fill"></i>
-                                    <i class="bi bi-emoji-smile"></i>
-                                    <i class="bi bi-calendar-event"></i>
-                                  </div>
-                                  <div class="col">
-                                    <button type="button" class="btn btn-primary rounded-pill">Tweetar</button>
+                                    <div class="col-1">
+                                        <h2><i class="bi bi-person-circle icone-user"></i></h2>
+                                    </div>
+                                    <div class="col">
+                                        <input class="caixa-tweet" type="text" placeholder="O que está acontecendo?">
+                                    </div>
 
-                                  </div>
+                                </div>
+                                <hr>
+                                <div class="btn-icons-tweet-box">
+                                    <div class="row">
+                                        <div class="col icons-tweet-box">
+                                            <i class="bi bi-image"></i>
+                                            <i class="bi bi-bar-chart-line-fill"></i>
+                                            <i class="bi bi-emoji-smile"></i>
+                                            <i class="bi bi-calendar-event"></i>
+                                        </div>
+                                        <div class="col">
+                                            <button type="button"
+                                                class="btn btn-primary rounded-pill btn-tweetar">Tweetar</button>
+
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -63,8 +75,9 @@
                         tweet na pagina
                     </li>
                 </ul>
-                
+
             </div>
+            <!--!Sessao da direita-->
             <div class="col-3">
                 <div>
                     <table class="pesquisa-n-icon">
